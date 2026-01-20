@@ -1,8 +1,0 @@
-{
-    "C_Cpp.errorSquiggles": "disabled",
-    "idf.portWin": "COM120",
-    "idf.currentSetup": "f:\\esp\\code_5_5\\v5.5.1\\esp-idf",
-    "idf.espIdfPathWin": "f:\\esp\\code_5_5\\v5.5.1\\esp-idf",
-    "idf.toolsPathWin": "f:\\esp_tools\\code_5_5",
-    "idf.pythonInstallPath": "f:\\esp_tools\\code_5_5\\tools\\idf-python\\3.11.2\\python.exe"
-}

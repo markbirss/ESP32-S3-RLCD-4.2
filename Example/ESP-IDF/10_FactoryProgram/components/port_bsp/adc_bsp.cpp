@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <freertos/FreeRTOS.h>
 #include "adc_bsp.h"
+#include "esp_log.h"
 
 static adc_cali_handle_t cali_handle;
 static adc_oneshot_unit_handle_t adc1_handle;
@@ -44,5 +45,6 @@ uint8_t Adc_GetBatteryLevel() {
         return 100;
     }
     float level = ((vol - 3.0) / 1.12) * 100;
+	//ESP_LOGW("Battery","Voltage: %.3f V, Level: %.1f %%",vol,level);
     return (uint8_t)level;
 }
